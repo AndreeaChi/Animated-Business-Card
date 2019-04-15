@@ -70,5 +70,10 @@ main {
 	padding: 6em;
 	box-sizing: border-box;
 	margin: 0 auto;
-	background: #07050473;
+}
+
+photo {
+	float: right;
+    margin: 0px 0px 15px 15px;
+    border-radius: 150px;
 }
