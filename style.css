@@ -3,6 +3,13 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap');
+body { 
+  font-family: "Signika Negative", sans-serif; 
+  font-weight: 300;
+  height: 300vh;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -76,4 +83,18 @@ photo {
 	float: right;
     margin: 0px 0px 15px 15px;
     border-radius: 150px;
+}
+
+.ipsGrid > .ipsGrid_span5 {
+  width: 40.42553191489362%;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.gs_reveal {
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0s;
 }
