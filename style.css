@@ -3,14 +3,22 @@
    License: none (public domain)
 */
 
-@import url('https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap');
-body { 
-  font-family: "Signika Negative", sans-serif; 
-  font-weight: 300;
-  height: 300vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe,
+body { 
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  color: #fff;
+}
+
+
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -29,41 +37,15 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
+} */
+/* HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-
-html {
-	height: 100%;
-}
-
-body {
-	height: 100%;
-    color: #d8d1d1;
-    font-family: sans-serif;
-    line-height: 2.2em;
-}
-a {
-	color: #ea7219;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #ea7219;
-	text-decoration: underline;
-}
+}*/
 
 main {
-    height: 100%;
+    height: 100vh;
     background: linear-gradient(to bottom, #dcc485 0%, #a76c16d6 50%,#7f410ce0 75%, #5a1616 100%), url(bg.jpg) center no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -71,19 +53,34 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+
+h1.salute {
+  margin-bottom: -5px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+
+a {
+  color: #ea7219;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ea7219;
+  text-decoration: underline;
+}
+
 .container {
-	max-width: 900px;
-	width: 80vw;
+	max-width: 1000px;
+
 	padding: 6em;
 	box-sizing: border-box;
 	margin: 0 auto;
 }
 
-photo {
-	float: right;
-    margin: 0px 0px 15px 15px;
-    border-radius: 150px;
-}
 
 .ipsGrid > .ipsGrid_span5 {
   width: 40.42553191489362%;
@@ -97,4 +94,10 @@ photo {
   opacity: 0;
   visibility: hidden;
   transition: transform 0s;
+}
+
+photo {
+  float: right;
+  margin: 0px 0px 15px 15px;
+  border-radius: 150px;
 }
